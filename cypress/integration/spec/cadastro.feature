@@ -7,6 +7,6 @@ Para realizar login
      Given Que eu esteja na pagina home
      When Abrir a aba cadastro
      And inserir email "qpzttluamiejyhhgtv@ianvvn.com"
-     And clicar na aba continuar e
+     And clicar na aba continuar
 
     
