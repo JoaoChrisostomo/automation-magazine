@@ -1,5 +1,5 @@
 import Base from './base.page'
-import { ELEMENTS } from './components/magazine_elements'
+import { ELEMENTS } from './components/MagazineElements'
 
 export class Magazine extends Base {
 
