@@ -1,0 +1,30 @@
+{
+  "name": "magazine-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "fs-extra": "^9.1.0",
+    "jsonschema": "^1.4.0"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/step_definitions",
+    "cucumberJson": {
+      "generate": false,
+      "outputFolder": "cypress/report/cucumber-json"
+    }
+  }
+}
