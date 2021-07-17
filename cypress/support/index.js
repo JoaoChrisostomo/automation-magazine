@@ -4,7 +4,7 @@ Cypress.Server.defaults({
   ignore: (xhr) => {
     return true;
   }
-})
+});
 
 Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
@@ -12,7 +12,5 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 Cypress.SelectorPlayground.defaults({
   selectorPriority: ['data-wc','data-cy','data-test','data-testid','id', 'class', 'attributes', 'tag','nth-child'],
-  
 
-  
 });
