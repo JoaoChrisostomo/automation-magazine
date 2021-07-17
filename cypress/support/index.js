@@ -9,3 +9,8 @@ Cypress.Server.defaults({
 Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
+
+Cypress.SelectorPlayground.defaults({
+  selectorPriority: ['data-wc','data-cy','data-test','data-testid','id', 'class', 'attributes', 'tag','nth-child'],
+  
+});
