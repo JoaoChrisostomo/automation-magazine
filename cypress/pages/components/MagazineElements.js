@@ -5,8 +5,8 @@ export const ELEMENTS = {
    ARRAY_PRODUCTS : '.productShowCase > li',
    ADC_SACOLA     : '.wrapper-product__informations > .button__buy',
    SUB_ITENS      : '.BasketPriceBox-prices-title',
-   BTN_CADASTRO   : '.js-login-section',
-   CAMPO_CADASTRO : '#input-login-55ec702a',
-   CONT_CADASTRO  : 'mobile-hidden', 
+   ABA_CADASTRO   : '.js-login-section',
+   INSERIR_EMAIL  : '[type=email]',
+   CONT_CADASTRO  : '.LoginBox-form-continue > .mobile-hidden'
 }
 

@@ -9,6 +9,7 @@ export class Magazine extends Base {
 
   static pesquisar_produto(text) {
     super.typeValue(ELEMENTS.INP_TEXT, text, true)
+    
     super.clickOnElement(ELEMENTS.BTN_PESQUISAR)
   }
 
