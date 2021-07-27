@@ -1,6 +1,6 @@
 Feature: Pesquisar produto
 
-
+    @front
     Scenario: Adicionar produto na sacola
         Given que esteja na pagina home
         When pesquisar por "computador"
