@@ -1,0 +1,77 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Pesquisar produto",
+    "line": 1,
+    "id": "pesquisar-produto",
+    "tags": [],
+    "uri": "magazine.feature",
+    "elements": [
+      {
+        "id": "pesquisar-produto;adicionar-produto-na-sacola",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Adicionar produto na sacola",
+        "tags": [
+          {
+            "name": "@front",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que esteja na pagina home",
+            "result": {
+              "status": "passed",
+              "duration": 33470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "pesquisar por \"computador\"",
+            "result": {
+              "status": "passed",
+              "duration": 3328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicar em primeiro produto",
+            "result": {
+              "status": "passed",
+              "duration": 3930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "adicionar a sacola",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "sera validado o subtotal de itens adicionados",
+            "result": {
+              "status": "passed",
+              "duration": 4854000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
