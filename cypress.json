@@ -6,6 +6,6 @@
     "chromeWebSecurity": false,
     "numTestsKeptInMemory": 5,
     "ignoreTestFiles": "*.js",
-    "testFiles": "**/*.{feature, features}"
+    "testFiles": ["**/*.feature"]
 
 }
